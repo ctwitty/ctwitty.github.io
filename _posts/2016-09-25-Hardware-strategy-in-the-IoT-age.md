@@ -64,8 +64,8 @@ Cloud
 
 Cloud players, have a different story than *Devices* and *Connectivity*.
 Regardless of the type of IoT device, chances are that the data it generates
-will end up in the data centers of one of 5 companies: Google, Amazon,
-Facebook, Microsoft or Baidu.  These companies will clearly benefit the most
+will end up in the data centers of one of 4 companies: Google, Amazon,
+Microsoft or Baidu.  These companies will clearly benefit the most
 from the IoT revolution.
 
 Will they "own" the IoT space?  They certainly face less competition and higher
