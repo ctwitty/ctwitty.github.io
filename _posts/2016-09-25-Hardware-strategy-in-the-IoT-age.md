@@ -53,7 +53,7 @@ is truly mobile is cellular.  This highly regulated sector has been able to
 [extract healthy margins][2] over the years. 
 
 However, the irruption of IoT is forcing a change of rules.  A network that was
-design for voice has had to adapt rapidly to very different use cases, from
+designed for voice has had to adapt rapidly to very different use cases, from
 bandwidth-hogging smartphones to ultra low duty-cycle sensors.  Services that used to
 be the monopolized by cellular operators, such as voice messaging or SMS, can
 now be replaced by much cheaper cloud services.  And there is no turning back:
