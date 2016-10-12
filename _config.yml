@@ -1,13 +1,12 @@
 # Site settings
-name: Javier Cardona
-email: javier@okio.io
-avatar: https://avatars3.githubusercontent.com/u/676181
+name: colleen
+email: colleen.kelly.t@gmail.com
+avatar: https://avatars1.githubusercontent.com/u/1639201
 description: > # this means to ignore newlines until "baseurl:"
-  Random things that interest me and did not know where else to write them down. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jcard0na.github.io" # the base hostname & protocol for your site
-twitter_username: jcard0na
-github_username: jcard0na
+url: "https://ctwitty.github.io" # the base hostname & protocol for your site
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
