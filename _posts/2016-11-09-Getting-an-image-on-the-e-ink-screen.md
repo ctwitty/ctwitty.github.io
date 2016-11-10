@@ -54,6 +54,7 @@ convert wave_sharpen.xbm wave_sharpen.png
 Image viewers (such as eog on Linux and Preview on OSX) recognize XBM files and will display the picture.  It seems web browers don't, so I generated png's.
 
 The monochrome flag affects the dithering.  It makes a difference when producing XBM's:
+
 <img src="{{ site.url }}/assets/img/wave_sharp_no_monochrome.png" style="width:200px;"/>
 <img src="{{ site.url }}/assets/img/wave_sharp_monochrome.png" style="width:200px;"/>
 
