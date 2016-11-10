@@ -68,3 +68,5 @@ convert wave.png -monochrome -resize 200x200 -sharpen 0x3 wave1.xbm
 convert wave1.xbm wave1.png
 ```
 
+Here it is on the screen:
+<img src="{{ site.url }}/assets/img/photo_wav_screen.jpg" style="width:400px;"/>
