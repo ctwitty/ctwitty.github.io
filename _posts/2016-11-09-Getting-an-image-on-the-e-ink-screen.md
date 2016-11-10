@@ -34,30 +34,22 @@ Since the e-ink screen is monochromatic and the wave have some fine details, I t
 The image on the left has no sharpening, while the image on the right has heavy sharpening:
 
 <img src="{{ site.url }}/assets/img/wave_no_sharpen.png" style="width:200px;"/>
-
 <img src="{{ site.url }}/assets/img/wave_sharpen.png" style="width:200px;"/>
 
 Image on the left:
 
 ```shell
-
 # XBM file for code:
-
-convert wave.png -monochrome -resize 200x200 wave_no_sharpen.xbm
-
-# convert to PNG to display here:
-
-convert wave_no_sharpen.xbm wave_no_sharpen.png
-
+$ convert wave.png -monochrome -resize 200x200 wave_no_sharpen.xbm
+# png to display here:
+$ convert wave_no_sharpen.xbm wave_no_sharpen.png
 ```
 
 Image on the right, using sharpen:
 
 ```shell
-# XBM
-convert wave.png -monochrome -resize 200x200 -sharpen 0x3 wave_sharpen.xbm
-# and png
-convert wave_sharpen.xbm wave_sharpen.png
+$ convert wave.png -monochrome -resize 200x200 -sharpen 0x3 wave_sharpen.xbm
+$ convert wave_sharpen.xbm wave_sharpen.png
 ```
 
 Image viewers (such as eog on Linux and Preview on OSX) recognize XBM files and will display the picture.  It seems web browers do not, so I generated png's.
