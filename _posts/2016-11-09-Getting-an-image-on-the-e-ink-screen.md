@@ -39,10 +39,15 @@ The image on the left has no sharpening, while the image on the right has heavy 
 Image on the left:
 
 ```shell
+
 # XBM file for code:
+
 convert wave.png -monochrome -resize 200x200 wave_no_sharpen.xbm
+
 # convert to PNG to display here:
+
 convert wave_no_sharpen.xbm wave_no_sharpen.png
+
 ```
 
 Image on the right, using sharpen:
