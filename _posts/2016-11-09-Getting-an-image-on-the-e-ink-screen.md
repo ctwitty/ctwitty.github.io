@@ -9,9 +9,9 @@ Luckily, this is easier than I expected.  ImageMagick supports XBM files, which 
 
 1) Get an image.
 
-For my image I grabbed a square piece of Hokusai's "The Greate Wave off Kanagawa":
+For my image I grabbed a square piece of Hokusais "The Greate Wave off Kanagawa":
 
-<img src="{{ site.url }}/assets/img/wave.png" style="width:500px;"/>
+<img src="{{ site.url }}/assets/img/wave.png" style="width:300px;"/>
 
 2) Convert it to an XBM file:
 
@@ -54,7 +54,7 @@ convert wave.png -monochrome -resize 200x200 -sharpen 0x3 wave_sharpen.xbm
 convert wave_sharpen.xbm wave_sharpen.png
 ```
 
-Image viewers (such as eog on Linux and Preview on OSX) recognize XBM files and will display the picture.  It seems web browers don't, so I generated png's.
+Image viewers (such as eog on Linux and Preview on OSX) recognize XBM files and will display the picture.  It seems web browers do not, so I generated png's.
 
 The monochrome flag affects the dithering.  It makes a difference when producing XBM's:
 
