@@ -34,6 +34,7 @@ Since the e-ink screen is monochromatic and the wave have some fine details, I t
 The image on the left has no sharpening, while the image on the right has heavy sharpening:
 
 <img src="{{ site.url }}/assets/img/wave_no_sharpen.png" style="width:200px;"/>
+
 <img src="{{ site.url }}/assets/img/wave_sharpen.png" style="width:200px;"/>
 
 Image on the left:
